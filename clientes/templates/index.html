@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portal de Información sobre eventos culturales</title>
+    {% load static %}
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'cultural/css/style.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'cultural/css/boxicons.min.css' %}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Cul<span>tural</span></a>
+        <ul class="navbar">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#info">Información</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Contactos</a></li>
+        </ul>
+        <div class="h-derecha">
+            <a href="#">Síguenos</a>
+            <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+            <div class="bx bx-menu" id="menu_icon"></div>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text">
+            <h5 id="typed">Diviértete</h5>
+            <h1>LOS MEJORES EVENTOS CULTURALES</h1>
+            <p>La mejor convivencia de toda la región sur, te invitamos a <br> disfrutar de distintos eventos culturales</p>
+            <a href="#" id="btn-inicio" class="btn">Ven y conócenos</a>
+        </div>
+    </section>
+    <section class="columnas" id="info">
+        <div data-aos="zoom-in-up" class="col-content">
+            <div class="row">
+                <div class="row-img">
+                    <img src="{% static 'cultural/IMG/fotdos.jpg' %}" alt="Imagen danza">
+                </div>
+                <h4>Danza cultural</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="{% static 'cultural/IMG/fotuno.jpg' %}" alt="Imagen charro">
+                </div>
+                <h4>Danza charro</h4>
+            </div>
+            <div class="row">
+                <div class="row-img">
+                    <img src="{% static 'cultural/IMG/fotcuatro.jpg' %}" alt="Imagen pirámide">
+                </div>
+                <h4>Baile veracruzano</h4>
+            </div>
+        </div>
+        <section>
+            <div class="promo">
+                <div data-aos="zoom-in" class="promo-img">
+                    <img src="{% static 'cultural/IMG/fotres.jpg' %}" alt="Evento del día">
+                </div>
+                <div class="promo-text">
+                    <h5 id="typedd">EVENTO DEL DÍA</h5>
+                    <h1>NO TE LO PIERDAS</h1>
+                    <p>VEN AHORA</p>
+                    <a href="#" id="btn-info" class="btn">INFORMACIÓN</a>
+                </div>
+            </div>
+        </section>
+     </section>
+      <!-- Aqui hare el footer-->
+      <footer>
+        <div class="footeer">
+            <div data-aos="zoom-in" class="footeer-img">
+                 <img src="{% static 'cultural/IMG/footeer.jpg' %}" alt="Imagen Footer">
+            </div>
+            <div class="footer-text">
+                <h5>Contactanos</h5>
+                <h5> Correo: Eventos_Acayucan@gmail.com</h5>
+                <h5>Direccion:96056, Ramón Corona & Calle Benito Juárez, La Palma, Acayucan, Ver.</h5>
+                <h5>Telefono:+529242448809</h5>
+                <a href="#">Síguenos</a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                <div class="bx bx-menu" id="menu_icon"></div>
+            </div>
+            <div class = "footer bottom">
+                <p> 2024 Portal de eventos culturales | Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+            <!-- Aqui acaba el footer-->
+</body>
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+<script src="static/cultural/js/script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>
