@@ -44,11 +44,11 @@ document.querySelectorAll('.navbar a[href^="#"]').forEach(function(enlace){
 
 // Cambiar la imagen de fondo caada n segundos
 const imagenes = [
-    '/static/cultural/img/fotdos.jpg',
-    '/static/cultural/img/fotuno.jpg',
-    '/static/cultural/img/fotres.jpg',
-    '/static/cultural/img/fotcuatro.jpg',
-    '/static/cultural/img/fotcinco.jpg',
+    '/static/cultural/IMG/fotdos.jpg',
+    '/static/cultural/IMG/fotuno.jpg',
+    '/static/cultural/IMG/fotres.jpg',
+    '/static/cultural/IMG/fotcuatro.jpg',
+    '/static/cultural/IMG/fotcinco.jpg'
 ];
 const homeSection = document.querySelector('.home');
 const intervalo = 5000; // 5000 ms = 5 s
